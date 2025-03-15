@@ -11,9 +11,12 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "mysql2": "^3.13.0",
     "next": "15.2.0",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "typeorm": "^0.3.21",
+    "winston": "^3.17.0"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.5",
